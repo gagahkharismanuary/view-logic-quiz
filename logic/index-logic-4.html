@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Logic-4</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<body ng-app="myModule" ng-controller="controller">
+    <div class="well" ng-repeat="data in data">
+        <h3> I Will Take The AlterEgo</h3>
+        <span>{{data.alterEgo}}</span>
+        <br/>
+        <h4>The Power</h4>
+        <span>{{data.powers}}</span>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.5.0/ui-bootstrap-tpls.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.5.0/ui-bootstrap.min.js"></script>
+    <script src="app.js"></script>
+    <script src="scripts/controller.js"></script>
+     <script src="scripts/factory.js"></script>
+</body>
+</html>
